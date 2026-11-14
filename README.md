@@ -1,29 +1,28 @@
-# Baroque nocturne
+# Be not afraid
 
-Un thème pour Claude (application de bureau et mobile) : baroque, sombre et futuriste.
-Fonds encre aubergine et texte ivoire la nuit, ivoire et dorure le jour, accent or patiné,
-erreurs en rouge brique. Le décor animé dessine deux coins de filigrane doré (volutes,
-acanthe, perles) prolongés par des pistes de circuit, parcourus d'une lueur froide.
-Les animations s'arrêtent si le système demande moins de mouvement.
+Thème pour Claude Code dans l'application de bureau (onglet Code), inspiré de l'album
+BE NOT AFRAID. Un patchwork de statues tracées depuis des photos libres de droits (CC0,
+crédits dans CREDITS.md) : certaines aux yeux censurés, griffés ou vides, deux qui pleurent
+du sang, une tête mangée par la neige d'un écran, le tout figé en plein glitch dans une brume
+sombre et sale. Suit le mode clair ou sombre du système ; un voile au centre garde le chat
+lisible. Le décor est fixe : l'application n'anime pas les décors de thème.
+
+L'accélération graphique de l'application doit être active, sinon le défilement rame.
 
 ## Installation
 
-Dans l'application de bureau : cliquer sur + à côté de la zone de saisie, puis Plugins,
-Add marketplace avec `Addonis-13/baroque-nocturne`, puis Add plugin.
-
-À l'invite d'une session Claude Code dans un terminal :
+Dans une session Claude Code :
 
 ```
-/plugin install baroque-nocturne --marketplace Addonis-13/baroque-nocturne
+/plugin install be-not-afraid --marketplace Addonis-13/baroque-nocturne
 ```
-
-Répondre `y` pour ajouter la marketplace, puis choisir la portée (user).
 
 Depuis un shell :
 
 ```bash
-claude plugin install baroque-nocturne --marketplace Addonis-13/baroque-nocturne
+claude plugin install be-not-afraid --marketplace Addonis-13/baroque-nocturne
 ```
 
 Le dépôt est privé : l'ordinateur doit déjà avoir accès à GitHub (clé SSH, ou
-`gh auth login` puis `gh auth setup-git`).
+`gh auth login` puis `gh auth setup-git`). L'ancien thème Baroque nocturne reste sur la
+branche `baroque-nocturne`.

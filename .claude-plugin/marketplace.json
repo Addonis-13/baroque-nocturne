@@ -1,0 +1,5 @@
+{
+  "name": "baroque-nocturne",
+  "owner": { "name": "Addonis-13" },
+  "plugins": [{ "name": "baroque-nocturne", "source": "./" }]
+}

@@ -289,4 +289,6 @@ const RAW = `<svg xmlns="http://www.w3.org/2000/svg" class="bna" width="100%" he
 </svg>`
 
 // Sans retours à la ligne ni indentation : l'appli a refusé le décor à 129 000 caractères.
-export const SCENE = RAW.replace(/\n\s*/g, '')
+// Guillemets simples : le décor voyage en JSON, où chaque guillemet double s'échappe ; depuis
+// une session cloud, échappé plusieurs fois, il dépassait sans doute 131 072 caractères.
+export const SCENE = RAW.replace(/\n\s*/g, '').replace(/"/g, "'")
